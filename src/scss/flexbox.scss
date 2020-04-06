@@ -1,0 +1,26 @@
+.image-container{
+    position: relative;
+
+    .basic-container{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background:rgba(84, 84, 84, 0.7); 
+    }
+}
+/*
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    z-index: 9999;
+    -webkit-animation: spin 2s linear infinite; 
+    animation: spin 2s linear infinite;
+  }*/
+
+  .hideIt{
+      display: none !important;
+  }

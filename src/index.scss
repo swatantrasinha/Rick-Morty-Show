@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "~bootstrap/scss/bootstrap";
+
+@import './scss/flexbox.scss';
+
+
+body {
+  background: #d3d3d3;
+  color: #333;
+  font-size: 16px;
+  font-family: 'Libre Franklin', sans-serif !important;
+}
+img{
+  width: 100%;
+}
+
+.text-grey{
+  color: #696969;
+}
+
+.text-orange{
+  color:#a76813;
+}
+
+.info-border{
+border-bottom: 1px solid #696969;
+}
+
+.main-data{
+background-color: #2e2e2f;
+font-size: 14px;
+}
+
+.spinner-border{
+  width: 3em;
+  height: 3em;
+}
+
+.mobileToggleFilter{
+  margin-left: 275px;
+}
+ 
+
+@media only screen and (max-width: 400px) {
+  .filterSlider {
+    display: block !important;
+    font-size: 35px !important;
+  }
+  .hideFilter{
+    display: none !important;    
+  }
+  .mb-mobile{
+    margin-bottom: 250px !important;
+  }
+}
