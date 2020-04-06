@@ -1,44 +1,18 @@
 
 import {displayCheckbox} from '../filter/createCheckbox';
-const filterData2=[
-    {
-        name:"Spicies",
-        filters:[
-                {name:"Human",value:"Human"},
-                {name:"mythology",value:"mythology"},
-                {name:"other spicies..",value:"other-spicies"}
-            ]
-    },
-    {
-        name:"Gender",
-        filters:[
-                    {
-                    name:"male",value:"male"},
-                    {name:"female",value:"female"}
-                ]
-    },
-    {
-        name:"Origin",
-        filters:[
-                {name:"unknown",value:"unknown"},
-                {name:"post apocalyptic earth",value:"post-apocalyptic-earth"},
-                {name:"nuptia 4",value:"nuptia4"},
-                {name:"other origins..",value:"other-origins"}
-            ]
-    }
-]
+
 const filterData=[
-    {
+  /*  {
         name:"status",
         filters:[{name:"alive",value:"alive"},{name:"dead",value:"dead"},{name:"unknown",value:"unknown"}]
-    },
+    },*/
     {
         name:"species",
         filters:[{name:"Human",value:"Human"},{name:"Alien",value:"alien"},{name:"Humanoid",value:"humanoid"},{name:"Cronenberg",value:"cronenberg"}]
     },
     {
         name:"gender",
-        filters:[{name:"male",value:"male"},{name:"female",value:"female"},{name:"gender less",value:"unknown"}]
+        filters:[{name:"male",value:"male"},{name:"female",value:"female"}]
     },
      {
         name:"origin",
